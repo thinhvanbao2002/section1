@@ -11,15 +11,17 @@ html{
 .wrapper {
     width: 100vw;
     background: #FFFDF4;
-    padding: 70px 194px 30px 194px;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .courses-header {
